@@ -1,0 +1,36 @@
+#Android specific
+bin
+gen
+obj
+libs/armeabi
+lint.xml
+local.properties
+release.properties
+ant.properties
+*.class
+
+*/build
+*.log
+*.apk
+*.orig
+
+#Gradle
+.gradle
+.idea
+.DS_Store
+build
+gradle.properties
+
+#Maven
+target
+pom.xml.*
+
+#Eclipse
+.project
+.classpath
+.settings
+.metadata
+
+#IntelliJ IDEA
+.idea
+*.iml
